@@ -68,6 +68,7 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: right;
+    margin-right: 150px;
   
     
 }
@@ -79,8 +80,6 @@ header #logo h1{
     color: white;
     text-align: right;
     
-    margin-right: 150px;
-   
 }
 
 </footer navigation>
