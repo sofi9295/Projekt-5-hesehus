@@ -1,3 +1,10 @@
+.h1{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    
+}
+
+
 .LogoContainer{
     width:25%;
     margin:auto;
@@ -29,7 +36,7 @@ header #logo h1{
 
 
 
-
+/* CSS TIL LOGIND */
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
@@ -74,8 +81,7 @@ button:hover {
 /* The "Forgot password" text */
 span.psw {
   float: right;
-  padding-top: 16px;
-  font-family: 'Signika', sans-serif;
+  font-family: 'Signika', sans-serif;     
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -86,6 +92,82 @@ span.psw {
   }
   .cancelbtn {
     width: 100%;
+  }
+}
+
+/* CSS TIL FACEBOOK */
+* {box-sizing: border-box}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+/* Two-column layout */
+.col {
+  float: center;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
   }
 }
 
