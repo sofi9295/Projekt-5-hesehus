@@ -11,3 +11,17 @@ header #logo{
 header #logo h1{
     margin:1;
 }
+
+<footer navigation>
+.logohome {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</footer navigation>
+
+
