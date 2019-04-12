@@ -68,6 +68,7 @@ button:hover {
 /* Add padding to containers */
 .container {
   padding: 16px;
+  font-family: 'Signika', sans-serif;
 }
 
 /* The "Forgot password" text */
