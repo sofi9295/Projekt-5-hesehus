@@ -1,0 +1,13 @@
+.LogoContainer{
+    width:25%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header #logo{
+    float:left;
+}
+
+header #logo h1{
+    margin:1;
+}
