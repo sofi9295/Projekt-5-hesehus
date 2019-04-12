@@ -44,12 +44,14 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-family: 'Signika', sans-serif;
+  font-size: 14px;
 }
 
 /* Set a style for all buttons */
 button {
   background-color: #9B59B6;
   color: white;
+  font-size: 15px;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
