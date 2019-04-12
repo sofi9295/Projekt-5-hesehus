@@ -250,4 +250,75 @@ input:hover,
 @media screen and (max-width: 800px) {
   .left, .main, .right {
     width: 100%;
+      
+      
+      
+      
+      
+    /* profil-side */   
+      
+      .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: #9B59B6;
+ margin-left: 20px;
+}
+
+.p1 {
+ font-style: "Signika";
+ font-size: 14px;
+ margin-top: -55px;
+ margin-left: 90px;
+    
+}
+
+.p2 {
+ font-style: "Signika";
+ font-size: 14px;
+ margin-top: -15px;
+ margin-left: 90px;
+    
+}
+
+
+
+.p3 {
+ font-style: "Signika";
+ font-size: 14px;
+ margin-top: -15px;
+ margin-left: 90px;
+    
+}
+
+.p4 {
+ font-style: "Signika";
+ font-size: 14px;
+ margin-top: 20px;
+ margin-left: 45px;
+    
+}
+
+.foto1 {
+ margin-top: 15px;
+ 
+
+}
+
+.foto2 {
+ margin-top: 15px;
+ 
+    
+}
+.foto3 {
+ margin-top:px;
+ 
+    
+}
+.foto4 {
+ margin-top: 15px;
+
+    
+}
 
