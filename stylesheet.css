@@ -143,6 +143,13 @@ button {
     margin-left: 240px;
 }
 
+.h1opret {
+    text-align: center;
+}
+
+.udfyldpunkter {
+    text-align: center;
+}
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
