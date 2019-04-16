@@ -453,7 +453,7 @@ input:hover,
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #9B59B6;
+  background-color:;
   color: white;
 }
 
@@ -462,11 +462,11 @@ input:hover,
 }
 
 .toplogo {
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .beskeder {
-    margin-left: 50px; 
+    margin-left: 15px;
 }
 
 .notifikation {
