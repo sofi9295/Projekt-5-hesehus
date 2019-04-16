@@ -35,21 +35,26 @@ header #logo h1{
   vertical-align: middle;
 }
 
-
 /*CSS til Footer*/
-<footer navigation>
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
 
 .section{
     width: 100%; 
     height: 10px;
-    
 }
+
 .grid {    
     display: block;
     width: 100%;
-
 }
+
 .logohome{  
     position: fixed;
     left: 0;
@@ -57,19 +62,17 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: left;
-   
-    
 }
+
 .logowebshop{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-  
-    margin-left: 150px;
-        
+    margin-left: 150px;      
 }
+
 .logoopslag{
     position: fixed;
     left: 0;
@@ -77,16 +80,15 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: center;
-    
-   
 }
+
 .logospil{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-    margin-left: 500px;
+    margin-left: 425px;
   
     
 }
@@ -97,10 +99,9 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: right;
-    
 }
 
-</footer navigation>
+/*footer navigation*/
 
 
 
@@ -279,6 +280,7 @@ input:hover,
 }
 
 @media screen and (max-width: 800px) {
+
     
   .left, .main, .right 
     width: 100%; 
@@ -287,9 +289,15 @@ input:hover,
       
       
       
+
+  .left, .main, .right {
+    width: 100%;
+}
+
+
     /* profil-side */   
       
-      .avatar {
+.avatar {
   vertical-align: middle;
   width: 50px;
   height: 50px;
@@ -310,48 +318,37 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
-    
+ margin-left: 90px;   
 }
-
-
 
 .p3 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
-    
+ margin-left: 90px;  
 }
 
 .p4 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: 20px;
- margin-left: 45px;
-    
+ margin-left: 45px;  
 }
 
 .foto1 {
  margin-top: 15px;
- 
-
 }
 
 .foto2 {
- margin-top: 15px;
- 
-    
+ margin-top: 15px;   
 }
+    
 .foto3 {
- margin-top:px;
- 
-    
+ margin-top:-50px; 
 }
+    
 .foto4 {
  margin-top: 15px;
-
-    
 }
 
 
