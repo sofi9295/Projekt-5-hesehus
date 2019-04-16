@@ -1,7 +1,3 @@
-
-
-
-
 .avatar {
   vertical-align: middle;
   width: 50px;
@@ -15,52 +11,42 @@
  font-style: "Signika";
  font-size: 14px;
  margin-top: -55px;
- margin-left: 90px;
-    
+ margin-left: 90px; 
 }
 
 .p2 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
-    
+ margin-left: 90px;  
 }
-
-
 
 .p3 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
-    
+ margin-left: 90px;  
 }
 
 .p4 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: 20px;
- margin-left: 45px;
-    
+ margin-left: 45px; 
 }
 
 .foto1 {
  margin-top: 15px;
- 
-
-}
+ }
 
 .foto2 {
- margin-top: 15px;
- 
-    
-}.foto3 {
- margin-top: -50px;
- 
-    
-}.foto4 {
- margin-top: 15px;
+ margin-top: 15px; 
+}
 
-    
+.foto3 {
+ margin-top: -50px;   
+}
+
+.foto4 {
+ margin-top: 15px;  
 }
