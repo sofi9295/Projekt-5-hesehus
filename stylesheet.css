@@ -1,3 +1,6 @@
+
+
+
 .h1{
     text-align: center;
     font-family: 'Signika', sans-serif;
@@ -35,21 +38,26 @@ header #logo h1{
   vertical-align: middle;
 }
 
-
 /*CSS til Footer*/
-<footer navigation>
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
 
 .section{
     width: 100%; 
     height: 10px;
-    
 }
+
 .grid {    
     display: block;
     width: 100%;
-
 }
+
 .logohome{  
     position: fixed;
     left: 0;
@@ -57,19 +65,17 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: left;
-   
-    
 }
+
 .logowebshop{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-  
-    margin-left: 150px;
-        
+    margin-left: 150px;      
 }
+
 .logoopslag{
     position: fixed;
     left: 0;
@@ -77,16 +83,15 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: center;
-    
-   
 }
+
 .logospil{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-    margin-left: 500px;
+    margin-left: 425px;
   
     
 }
@@ -97,10 +102,9 @@ header #logo h1{
     width: 100%;
     color: white;
     text-align: right;
-    
 }
 
-</footer navigation>
+/*footer navigation*/
 
 
 
@@ -281,14 +285,20 @@ input:hover,
 @media screen and (max-width: 800px) {
   .left, .main, .right {
     width: 100%;
+<<<<<<< HEAD
+      }
       
       
       
       
       
+=======
+}
+
+>>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
     /* profil-side */   
       
-      .avatar {
+.avatar {
   vertical-align: middle;
   width: 50px;
   height: 50px;
@@ -309,47 +319,115 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
+<<<<<<< HEAD
  margin-left: 90px;
+
     
+=======
+ margin-left: 90px;   
+>>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
 }
-
-
 
 .p3 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
-    
+ margin-left: 90px;  
 }
 
 .p4 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: 20px;
- margin-left: 45px;
-    
+ margin-left: 45px;  
 }
 
 .foto1 {
  margin-top: 15px;
- 
-
 }
 
 .foto2 {
- margin-top: 15px;
- 
-    
+ margin-top: 15px;   
 }
+    
 .foto3 {
- margin-top:px;
- 
-    
+ margin-top:-50px; 
 }
+    
 .foto4 {
+<<<<<<< HEAD
+ margin-top: 15px;/* Add a black background color to the top navigation */
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.navi {
+  background-color: #F2F2F2;
+  overflow: hidden;
+=======
  margin-top: 15px;
+>>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
+}
+
+/* Style the links inside the navigation bar */
+.navi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navi a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: ##F2F2F2;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navi .icon {
+  display: none;
+}
+
+
 
     
-}
+    
 
