@@ -37,7 +37,7 @@
     float:inherit
 }
 
-p{
+p.box{
     font-family: 'Signika', sans-serif;
     font-size: 14px;
     padding:2px 6px 4px 6px; 
