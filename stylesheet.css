@@ -1,3 +1,6 @@
+
+
+
 .h1{
     text-align: center;
     font-family: 'Signika', sans-serif;
@@ -102,11 +105,6 @@ header #logo h1{
 }
 
 /*footer navigation*/
-
-
-
-
-
 
 /* CSS TIL LOGIND */
 /* Bordered form */
@@ -277,7 +275,7 @@ input:hover,
     
 
     
-}
+
 
 @media screen and (max-width: 800px) {
 
@@ -292,7 +290,7 @@ input:hover,
 
   .left, .main, .right {
     width: 100%;
-}
+       }
 
 
     /* profil-side */   
@@ -318,7 +316,9 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;   
+ margin-left: 90px;
+ 
+
 }
 
 .p3 {
@@ -348,8 +348,77 @@ input:hover,
 }
     
 .foto4 {
+    margin-top: 15px;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.navi {
+  background-color: #F2F2F2;
+  overflow: hidden;
+
  margin-top: 15px;
+
 }
+
+/* Style the links inside the navigation bar */
+.navi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navi a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: ##F2F2F2;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navi .icon {
+  display: none;
+
+}
+
 
 
 
@@ -408,3 +477,4 @@ input:hover,
 .topnav .icon {
   display: none;
 }
+
