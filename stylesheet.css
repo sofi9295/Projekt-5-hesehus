@@ -280,22 +280,13 @@ input:hover,
     
 
     
-}
+
 
 @media screen and (max-width: 800px) {
   .left, .main, .right {
     width: 100%;
-<<<<<<< HEAD
-      }
-      
-      
-      
-      
-      
-=======
-}
+       }
 
->>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
     /* profil-side */   
       
 .avatar {
@@ -319,13 +310,9 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
-<<<<<<< HEAD
  margin-left: 90px;
+ 
 
-    
-=======
- margin-left: 90px;   
->>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
 }
 
 .p3 {
@@ -355,8 +342,7 @@ input:hover,
 }
     
 .foto4 {
-<<<<<<< HEAD
- margin-top: 15px;/* Add a black background color to the top navigation */
+    margin-top: 15px;
     }
     
     
@@ -395,7 +381,7 @@ input:hover,
   overflow: hidden;
 =======
  margin-top: 15px;
->>>>>>> 6748825e1cff990b0d6814903b95d4dd9eda378c
+
 }
 
 /* Style the links inside the navigation bar */
@@ -424,6 +410,7 @@ input:hover,
 /* Hide the link that should open and close the topnav on small screens */
 .navi .icon {
   display: none;
+
 }
 
 
