@@ -279,9 +279,10 @@ input:hover,
 }
 
 @media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%;
-      
+    
+  .left, .main, .right 
+    width: 100%; 
+      }
       
       
       
@@ -353,3 +354,60 @@ input:hover,
     
 }
 
+
+
+
+
+
+/*top navigation*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    font-family: 'Signika', sans-serif;     
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #9B59B6;
+  color: white;
+}
+
+.indstillinger {
+    
+}
+
+.toplogo {
+    margin-left: 80px;
+}
+
+.beskeder {
+    margin-left: 50px; 
+}
+
+.notifikation {
+
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
