@@ -91,7 +91,7 @@ header #logo h1{
     bottom: 0;
     width: 100%;
     color: white;
-    margin-left: 425px;
+    margin-left: 475px;
   
     
 }
@@ -304,17 +304,14 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -55px;
- margin-left: 90px;
-    
+ margin-left: 90px; 
 }
 
 .p2 {
  font-style: "Signika";
  font-size: 14px;
  margin-top: -15px;
- margin-left: 90px;
- 
-
+ margin-left: 90px;  
 }
 
 .p3 {
@@ -328,55 +325,25 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: 20px;
- margin-left: 45px;  
+ margin-left: 45px; 
 }
 
 .foto1 {
  margin-top: 15px;
-}
+ }
 
 .foto2 {
- margin-top: 15px;   
+ margin-top: 15px; 
 }
-    
+
 .foto3 {
- margin-top:-50px; 
+ margin-top: -50px;   
 }
-    
+
 .foto4 {
-    margin-top: 15px;
+ margin-top: 15px;  
 }
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Add a black background color to the top navigation */
 .navi {
   background-color: #F2F2F2;
@@ -474,3 +441,80 @@ input:hover,
   display: none;
 }
 
+/*alt til opsalgs opslags side*/
+.container1{
+    width:57%;
+    height: 200px;
+    margin:auto;
+    overflow:hidden;
+}
+.container2{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+    height: 150px;
+    padding: 5px;
+}
+
+.container3{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.tags{
+    width:59%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.img1{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    float:inherit
+}
+
+.img2 {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    float:inherit
+}
+
+p.box{
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+    padding:2px 6px 4px 6px; 
+    color: #555555; 
+    background-color: #eeeeee; 
+    border: #dddddd 2px solid
+    
+}
+
+h3{
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+}
+
+h4{
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    font-weight:normal;
+}
+
+@media (min-width: 600px) {
+    .container1{
+        max-width: 24%
+    }
+    .container2
+    .container3
+    .tags
+    .img1
+    .img2
+    p.box
+    h3
+    h4
+}
+    
