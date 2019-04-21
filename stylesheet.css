@@ -139,7 +139,7 @@ button {
 }
 
 .h2eller {
-    margin-left: 160px;
+    margin-left: 240px;
 }
 
 .h1opret {
@@ -348,35 +348,6 @@ input:hover,
 }
     
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Add a black background color to the top navigation */
 .navi {
   background-color: #F2F2F2;
@@ -395,6 +366,7 @@ input:hover,
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 /* Change the color of links on hover */
@@ -414,12 +386,6 @@ input:hover,
   display: none;
 
 }
-
-
-
-
-
-
 
 /*top navigation*/
 
