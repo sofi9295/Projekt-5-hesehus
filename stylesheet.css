@@ -287,7 +287,7 @@ input:hover,
   .left, .main, .right {
     width: 100%;
        }
-    /* profil-side */   
+/* profil-side */   
       
 .avatar {
   vertical-align: middle;
@@ -302,8 +302,7 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -55px;
- margin-left: 90px;
-    
+ margin-left: 90px;   
  margin-left: 90px; 
 }
 
@@ -343,7 +342,7 @@ input:hover,
 .foto4 {
  margin-top: 15px;  
 }
-    
+
 
 /* Add a black background color to the top navigation */
 .navi {
@@ -365,6 +364,26 @@ input:hover,
   font-size: 17px;
   
 }
+    
+    
+    @media only screen and (max-width: 321px){
+        .foto1{
+            width: 140px;
+            height: 140px;
+        }
+        .foto2{
+            width: 140px;
+            height: 140px;
+        }
+        .foto3{
+            width: 140px;
+            height: 140px;
+        }
+        .foto4{
+            width: 140px;
+            height: 140px;
+        }
+    }
 
 /* Change the color of links on hover */
 .navi a:hover {
@@ -503,22 +522,12 @@ h4.opo{
     font-weight:normal;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
     .containeropo1{
         max-width: 24%
     }
-    .containeropo2
-    {
-        
+
     }
-    .containeropo3
-    .tags
-    .img1
-    .img2
-    p.textbox
-    h3.opo
-    h4.opo
-}
 
     body {
   font-family: Arial, Helvetica, sans-serif;
