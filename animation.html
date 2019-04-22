@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<style>
+#knap {
+  width:100%;
+  height: 100%;
+  position: center;
+  background: wihte;
+}
+#Animation {
+  position: absolute;
+
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Åben app</button> 
+</p>
+
+<div id ="knap">
+<div id ="Animation">
+    <img src="Billeder/logo.png" alt="logo"> 
+</div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("Animation");   
+  var pos = clearInterval;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 100) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+</body>
+</html>
