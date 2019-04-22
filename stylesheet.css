@@ -25,16 +25,19 @@ header #logo h1{
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  float: left;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
   padding: 0 4px;
+  margin-left: auto;
+ 
 }
 
 .column img {
   margin-top: 8px;
+  margin-left: auto;
   vertical-align: middle;
 }
 
@@ -46,8 +49,7 @@ header #logo h1{
   width: 100%;
   background-color: red;
   color: white;
-}
-.footer{display: block;}
+display: block;}
 
 .section{
     width: 100%; 
