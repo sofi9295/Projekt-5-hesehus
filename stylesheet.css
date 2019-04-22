@@ -47,6 +47,7 @@ header #logo h1{
   background-color: red;
   color: white;
 }
+.footer{display: block;}
 
 .section{
     width: 100%; 
@@ -91,6 +92,7 @@ header #logo h1{
     bottom: 0;
     width: 100%;
     color: white;
+    margin-left: 425px;
     margin-left: 475px;
   
     
@@ -139,7 +141,7 @@ button {
 }
 
 .h2eller {
-    margin-left: 160px;
+    margin-left: 240px;
 }
 
 .h1opret {
@@ -278,17 +280,11 @@ input:hover,
     
   .left, .main, .right 
     width: 100%; 
-}
-      
-      
-      
-      
+}  
 
   .left, .main, .right {
     width: 100%;
        }
-
-
     /* profil-side */   
       
 .avatar {
@@ -304,6 +300,8 @@ input:hover,
  font-style: "Signika";
  font-size: 14px;
  margin-top: -55px;
+ margin-left: 90px;
+    
  margin-left: 90px; 
 }
 
@@ -344,6 +342,7 @@ input:hover,
  margin-top: 15px;  
 }
     
+
 /* Add a black background color to the top navigation */
 .navi {
   background-color: #F2F2F2;
@@ -362,6 +361,7 @@ input:hover,
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 /* Change the color of links on hover */
@@ -381,12 +381,6 @@ input:hover,
   display: none;
 
 }
-
-
-
-
-
-
 
 /*top navigation*/
 
@@ -441,14 +435,16 @@ input:hover,
   display: none;
 }
 
-/*alt til opsalgs opslags side*/
-.container1{
+
+/* css til opslagpåopslagssiden */
+/* fixes */
+.containeropo1{
     width:57%;
     height: 200px;
     margin:auto;
     overflow:hidden;
 }
-.container2{
+.containeropo2{
     width:70%;
     margin:auto;
     overflow:hidden;
@@ -456,7 +452,7 @@ input:hover,
     padding: 5px;
 }
 
-.container3{
+.containeropo3{
     width:70%;
     margin:auto;
     overflow:hidden;
@@ -482,23 +478,23 @@ input:hover,
     float:inherit
 }
 
-p.box{
+p.textbox{
     font-family: 'Signika', sans-serif;
     font-size: 14px;
     padding:2px 6px 4px 6px; 
     color: #555555; 
     background-color: #eeeeee; 
     border: #dddddd 2px solid
-    
+
 }
 
-h3{
+h3.opo{
     font-family: 'Signika', sans-serif;
     font-size: 20px;
     font-weight:normal;
 }
 
-h4{
+h4.opo{
     font-family: 'Signika', sans-serif;
     font-size: 15px;
     font-weight:normal;
@@ -517,6 +513,7 @@ h4{
     h3
     h4
 }
+
     
     
     
@@ -543,3 +540,4 @@ h4{
   background-color: #555; /* Add a dark-grey background on hover */
 }
     
+
