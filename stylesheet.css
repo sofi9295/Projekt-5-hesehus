@@ -45,23 +45,26 @@ header #logo h1{
 
 /*CSS til Footer*/
 .icon-bar {
-  width: 100%; /* Full-width */
-  background-color: #e8e9e8; /* Dark-grey background */
-  overflow: auto; /* Overflow due to float */
+  width: 100%;
+  background-color: #e8e9e8;
+  overflow: auto;
 }
 
 .icon-bar a {
-  float: left; /* Float links side by side */
-  text-align: center; /* Center-align text */
-  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
 }
 
 .icon-bar a:hover {
-  background-color: #915ba1; /* Add a hover color */
+  background-color: #915ba1;
 }
 
+.active {
+  background-color: #915ba1;
+}
 /*footer navigation*/
 
 
