@@ -437,14 +437,16 @@ input:hover,
   display: none;
 }
 
-/*alt til opsalgs opslags side*/
-.container1{
+
+/* css til opslagpåopslagssiden */
+/* fixes */
+.containeropo1{
     width:57%;
     height: 200px;
     margin:auto;
     overflow:hidden;
 }
-.container2{
+.containeropo2{
     width:70%;
     margin:auto;
     overflow:hidden;
@@ -452,7 +454,7 @@ input:hover,
     padding: 5px;
 }
 
-.container3{
+.containeropo3{
     width:70%;
     margin:auto;
     overflow:hidden;
@@ -478,23 +480,23 @@ input:hover,
     float:inherit
 }
 
-p.box{
+p.textbox{
     font-family: 'Signika', sans-serif;
     font-size: 14px;
     padding:2px 6px 4px 6px; 
     color: #555555; 
     background-color: #eeeeee; 
     border: #dddddd 2px solid
-    
+
 }
 
-h3{
+h3.opo{
     font-family: 'Signika', sans-serif;
     font-size: 20px;
     font-weight:normal;
 }
 
-h4{
+h4.opo{
     font-family: 'Signika', sans-serif;
     font-size: 15px;
     font-weight:normal;
@@ -513,4 +515,5 @@ h4{
     h3
     h4
 }
-    
+ 
+
