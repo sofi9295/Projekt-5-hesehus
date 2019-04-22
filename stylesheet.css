@@ -41,76 +41,36 @@ header #logo h1{
   vertical-align: middle;
 }
 
+
+
 /*CSS til Footer*/
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-display: block;}
-
-.section{
-    width: 100%; 
-    height: 10px;
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #e8e9e8; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
 }
 
-.grid {    
-    display: block;
-    width: 100%;
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
 }
 
-.logohome{  
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: left;
-    
-    
-}
-
-.logowebshop{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    margin-left: 150px;      
-}
-
-.logoopslag{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-
-.logospil{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    margin-left: 425px;
-    margin-left: 475px;
-  
-    
-}
-.logoprofil{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: right;
+.icon-bar a:hover {
+  background-color: #915ba1; /* Add a hover color */
 }
 
 /*footer navigation*/
+
+
+
+
+
+
+
+
 
 /* CSS TIL LOGIND */
 /* Bordered form */
