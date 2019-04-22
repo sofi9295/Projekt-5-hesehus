@@ -47,6 +47,7 @@ header #logo h1{
   background-color: red;
   color: white;
 }
+.footer{display: block;}
 
 .section{
     width: 100%; 
@@ -279,17 +280,11 @@ input:hover,
     
   .left, .main, .right 
     width: 100%; 
-}
-      
-      
-      
-      
+}  
 
   .left, .main, .right {
     width: 100%;
        }
-
-
     /* profil-side */   
       
 .avatar {
@@ -347,10 +342,7 @@ input:hover,
  margin-top: 15px;  
 }
     
-<<<<<<< HEAD
-    
-=======
->>>>>>> 8589a1f4e4e9fec19a2b4f9636afd1af18207d40
+
 /* Add a black background color to the top navigation */
 .navi {
   background-color: #F2F2F2;
