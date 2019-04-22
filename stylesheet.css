@@ -503,18 +503,21 @@ h4.opo{
     font-weight:normal;
 }
 
-@media (min-width: 600px) {
-    .container1{
+@media (min-width: 800px) {
+    .containeropo1{
         max-width: 24%
     }
-    .container2
-    .container3
+    .containeropo2
+    {
+        
+    }
+    .containeropo3
     .tags
     .img1
     .img2
-    p.box
-    h3
-    h4
+    p.textbox
+    h3.opo
+    h4.opo
 }
 
     body {
