@@ -27,10 +27,10 @@
 <script>
 function myMove() {
   var elem = document.getElementById("Animation");   
-  var pos = clearInterval;
+  var pos = 0;
   var id = setInterval(frame, 10);
   function frame() {
-    if (pos == 100) {
+    if (pos == 350) {
       clearInterval(id);
     } else {
       pos++; 
