@@ -25,7 +25,38 @@
     
 <div class=containeropo1>
 <div class=img1>
-<img src="Billeder/images-1.jpeg" alt="OpslagsBilled" align="middle" width="200" height="200">
+
+    
+<script>
+let i = 0; // start point
+let images = [];
+let time = 1000;
+    
+// image list
+Images[0] = "Billeder/images-1.jpeg"
+Images[1] = "Billeder/images-3.jpeg"    
+Images[2] = "Billeder/images-4.jpeg"    
+ 
+// change image
+function changeImg(){
+    document.slide.src = images[i];
+    
+if(i < images.length - 1){
+    i++;
+} else {
+    i = 0;
+}    
+
+    setTimeout("changeImg()", time);
+}
+
+    window.onload = changeImg;
+    
+</script>
+
+<img name="slide" width="200" height="200">    
+    
+    
 </div>
     </div>
 <div class=containeropo2>
