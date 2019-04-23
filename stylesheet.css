@@ -1,7 +1,7 @@
 
 .knap{
     position:relative;
-margin-top:75%;
+margin-top:80%;
     
 } 
 #knap {
@@ -54,6 +54,17 @@ header #logo h1{
   margin-left: 13px;
   vertical-align: middle;
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
 
 /*CSS til Footer*/
 .icon-bar {
