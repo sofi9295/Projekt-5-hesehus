@@ -165,7 +165,7 @@ span.psw {
   position: relative;
   border-radius: 1px;
   background-color: #f2f2f2;
-  padding: 10px 20 30px 0px;
+  padding: 10px 20px 30px 0px;
 } 
 
 /* style inputs and link buttons */
@@ -196,7 +196,6 @@ input:hover,
 
 /* Two-column layout */
 .col {
-  float: center;
   width: 50%;
   margin: auto;
   padding: 0 50px;
@@ -257,11 +256,8 @@ input:hover,
     
   .left, .main, .right 
     width: 100%; 
- 
-
-  .left, .main, .right 
-    width: 100%;
-       }
+}
+    
 /* profil-side */       
 .avatar {
   vertical-align: middle;
@@ -365,7 +361,7 @@ input:hover,
 }
 /* Add an active class to highlight the current page */
 .active {
-  background-color: ##F2F2F2;
+  background-color: #F2F2F2;
   color: white;
 }
     
@@ -386,7 +382,6 @@ input:hover,
     
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
   display: block;
   color: #000000;
   text-align: center;
@@ -404,7 +399,6 @@ input:hover,
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color:;
   color: white;
 }
 
@@ -551,5 +545,5 @@ h4.opo{
 .progress-bar {
   height: 8px;
   background: #9B59B6;
-  width: 0%;
-}
+    width:0%;
+    }
