@@ -29,7 +29,7 @@
 function myMove() {
   var elem = document.getElementById("Animation");   
   var pos = 70;
-  var id = setInterval(frame, 80);
+  var id = setInterval(frame, 10);
   function frame() {
     if (pos == 350) {
       clearInterval(id);
@@ -41,10 +41,12 @@ function myMove() {
   }
 }
 </script>
+    <a href="opslagsside.html" target="_blank"></a><button class="knap">Videre</button>
    
-    <button class="knap">
-        <a href="opslagsside.html">Videre</a>
-    </button>
+    
+
+    
+   
     
     <script defer>// When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
